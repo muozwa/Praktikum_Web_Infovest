@@ -28,7 +28,7 @@ export default function Register() {
     resolver: zodResolver(schema),
   });
 
-  const onSubmit = (data) => {
+  const onSubmit = ( data: any) => {
     setLoading(true);
 
     const userToSave = {
