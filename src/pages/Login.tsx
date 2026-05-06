@@ -28,8 +28,8 @@ export default function Login() {
     const cleanPassword = data.password.trim();
 
     if (
-      cleanEmail === "vinamaulidah27@gmail.com" &&
-      cleanPassword === "24090014"
+      cleanEmail === "admin@gmail.com" &&
+      cleanPassword === "123456789"
     ) {
       localStorage.setItem("token", "dummy_token");
       alert("Login berhasil!");
